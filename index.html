@@ -5,6 +5,7 @@ w<!DOCTYPE html>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sudeep Silwal | Home </title>
+  <link rel="icon" href="./assets/pageicon_pic.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -247,10 +248,13 @@ w<!DOCTYPE html>
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
-    var typed = new Typed('#element', {
-      strings: [ 'Student,', 'Coder,', 'Web Developer,', 'Photo Editor,', 'Video Editor.'  ],
-      typeSpeed: 50,
-    });
+      var typed = new Typed('#element', {
+          strings: ['Student,', 'Coder,', 'Web Developer,', 'Photo Editor,', 'Video Editor.'],
+          typeSpeed: 50,
+          loop: true, // Enable looping
+          backSpeed: 25, // Speed of erasing characters when looping
+          backDelay: 1500, // Delay before starting to erase when looping
+      });
   </script>
 </body>
 </html>
